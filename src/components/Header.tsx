@@ -17,12 +17,12 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({ name, title, contact }) => {
   return (
-    <header className="bg-gradient-to-r from-blue-600 to-blue-800 text-white px-8 py-12 rounded-lg shadow-lg">
+    <header className="bg-gradient-to-r from-blue-600 to-blue-800 text-white px-4 md:px-8 py-6 md:py-12 rounded-lg shadow-lg">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold mb-2">{name}</h1>
-        <h2 className="text-xl mb-6 text-blue-100">{title}</h2>
+        <h1 className="text-2xl md:text-4xl font-bold mb-2">{name}</h1>
+        <h2 className="text-base md:text-xl mb-4 md:mb-6 text-blue-100">{title}</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-sm">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4 text-xs md:text-sm">
           <div className="flex items-center gap-2">
             <Mail size={16} />
             <a href={`mailto:${contact.email}`} className="hover:text-blue-200">
