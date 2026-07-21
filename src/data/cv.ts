@@ -4,12 +4,12 @@ export const defaultCV: CVData = {
   name: "Abdulrahman M. Shalaby",
   title: "Communication & Systems Engineering Researcher",
   contact: {
-    email: "abdulrahman.shalaby@example.com",
-    phone: "+60 123-456-7890",
+    email: "abdulrahmanmshalaby@example.com",
+    phone: "+60 122-5334-90",
     location: "Kajang, Selangor, Malaysia",
-    linkedin: "linkedin.com/in/abdulrahman-shalaby",
-    googleScholar: "scholar.google.com",
-    orcid: "0000-0000-0000-0000"
+    linkedin: "linkedin.com/in/abdul-rahman2249",
+    googleScholar: "scholar.google.com/citations?user=81FB3G4AAAAJ",
+    orcid: "0000-0002-7107-1709"
   },
   summary: "Innovative researcher and engineer specializing in communication systems, optical technologies, and smart energy management. Proven track record in antenna design, UAV communications, and environmental monitoring systems. Published 8 peer-reviewed papers in high-impact journals with expertise in optical coherence tomography, wireless communications, and optimization algorithms. Co-inventor on 4 granted U.S. patents. Google Scholar: 150+ citations, h-index: 7.",
   education: [
